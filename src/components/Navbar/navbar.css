@@ -1,0 +1,25 @@
+.navbar_ul {
+    width: 92px;
+    background: #1F1D2B;
+    border-radius: 0px 16px 16px 0px;
+    height: 100vh;
+    padding-left: 12px;
+}
+
+
+.navbar_logo_bg {
+    background: #1F1D2B;
+    padding: 24px 0px 24px 12px;
+    border-radius: 0px 16px 0px 0px;
+}
+
+.navbar_logo {
+    border-radius: 12px;
+    background: rgba(235, 149, 106, 0.236);
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

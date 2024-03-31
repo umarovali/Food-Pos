@@ -1,0 +1,100 @@
+.navbar_li {
+    width: 100%;
+    height: 104px;
+    list-style: none;
+    display: grid;
+}
+
+.navbar_link {
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: #25283600;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.navbar_link.active {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background: #252836;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.navbar_link.active::after {
+    content: "";
+    width: 100%;
+    height: 12px;
+    border-radius: 0px 0px 16px 0px;
+    background: #1F1D2B;
+    position: absolute;
+    top: -12px;
+    right: 12px;
+    z-index: 1000;
+}
+
+.navbar_link.active::before {
+    content: "";
+    width: 100%;
+    height: 12px;
+    border-radius: 0px 12px 0px 0px;
+    background: #1F1D2B;
+    position: absolute;
+    bottom: -12px;
+    right: 12px;
+    z-index: 1000;
+}
+
+
+.navbar_link .navabar_bg {
+    background: rgba(255, 0, 0, 0);
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_link.active .navabar_bg {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0px 2px 20px 0px rgba(234, 124, 105, 0.32);
+    background: rgb(234, 124, 105);
+}
+
+.navbar_link.active .navabar_bg::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #252836;
+    position: absolute;
+    right: 12px;
+    top: -12px;
+}
+
+.navbar_link.active .navabar_bg::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #252836;
+    position: absolute;
+    right: 12px;
+    bottom: -12px;
+}
+
+.navbar_link .navbar_icons {
+    color: #EA7C69;
+    font-size: 26px;
+}
+
+.navbar_link.active .navbar_icons {
+    color: #fff;
+    font-size: 26px;
+}

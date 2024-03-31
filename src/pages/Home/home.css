@@ -1,0 +1,9 @@
+.home_wrapper {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.home_left {
+    flex-grow: 1;
+}

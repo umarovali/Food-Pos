@@ -1,0 +1,48 @@
+.hot_deshis_title_select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.hot_deshis_title {
+    color: rgb(255, 255, 255);
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.hot_deshis_select {
+    width: 100px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(57, 60, 73);
+    border-radius: 8px;
+    background: rgb(31, 29, 43);
+    color: rgb(255, 255, 255);
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+    outline: none;
+    padding-left: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.hot_deshis_arrow_select {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.hot_deshis_arrow {
+    position: absolute;
+    left: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 19px;
+}
