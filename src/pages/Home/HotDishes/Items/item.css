@@ -1,0 +1,54 @@
+.item {
+    width: 192px;
+    height: 226px;
+    border-radius: 16px;
+    background: rgb(31, 29, 43);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.item_foto {
+    position: relative;
+    bottom: 34px;
+}
+
+.item_title {
+    width: 144px;
+    padding-top: 14px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 130%;
+    position: relative;
+    bottom: 34px;
+}
+
+.item_price {
+    padding-top: 8px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    position: relative;
+    bottom: 34px;
+}
+
+.item_suptitile {
+    padding-top: 4px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: rgb(171, 187, 194);
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    position: relative;
+    bottom: 34px;
+}

@@ -46,3 +46,20 @@
     color: #fff;
     font-size: 19px;
 }
+
+.hot_deshis_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
+    column-gap: 8px;
+    margin-top: 32px;
+    padding-top: 36px;
+    overflow-y: scroll;
+    max-height: calc(100vh - 0px);
+    padding-bottom: 30px;
+}
+
+.hot_deshis_wrapper::-webkit-scrollbar {
+    display: none;
+}

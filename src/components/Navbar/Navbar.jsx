@@ -16,6 +16,9 @@ export default function Navbar() {
                 <NavbarLink href={"/discount"} Icon={CiDiscount1} />
                 <NavbarLink href={"/dashboard"} Icon={GoHome} />
                 <NavbarLink href={"/message"} Icon={GoHome} />
+                <NavbarLink href={"/notification"} Icon={GoHome} />
+                <NavbarLink href={"/setting"} Icon={GoHome} />
+                <NavbarLink href={"/logout"} Icon={GoHome} />
             </ul>
         </nav>
     )
